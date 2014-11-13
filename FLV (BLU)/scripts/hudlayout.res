@@ -76,7 +76,7 @@
 		"wide"	 "636"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "12"
+		"MaxDeathNotices" "5"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "14"
 		"LineSpacing"	  "-1"      //Increase this to around "2" for line spacing in the killfeed
@@ -732,7 +732,7 @@
 		"enabled"		"1"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1"
+		"zpos"			"3"
 		"wide"			"f0"
 		"tall"			"480"
 	}
@@ -745,7 +745,7 @@
 		"xpos"			"c-60"
 		"ypos"			"r123"
 		"zpos"			"2"
-		"wide"			"118"
+		"wide"			"120"
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"HudBG"
@@ -757,10 +757,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-60"
-		"ypos"			"r131"
+		"ypos"			"r113"			//r131
 		"zpos"			"2"
 		"wide"			"120"
-		"tall"			"40"
+		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"HudBG"
 	}
@@ -871,8 +871,8 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"				
-		"ypos"		"r472"				
+		"xpos"		"24"				
+		"ypos"		"r457"				
 		"zpos"		"-1"	
 		"wide"		"248"
 		"tall"		"453"
@@ -884,7 +884,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-170"
-		"ypos"		"275"
+		"ypos"		"270"
 		"wide"	 	"f0"
 		"tall"	 	"34"
 		"priority"	"40"
@@ -896,7 +896,7 @@
 		"visible" 	"1"
 		"enabled" 	"1"
 		"xpos"		"c-120"
-		"ypos"		"303"
+		"ypos"		"305"
 		"wide"	 	"f0"
 		"tall"	 	"34" 
 		"priority"	"40"
@@ -939,6 +939,22 @@
 		
 		"PaintBackgroundType"	"2"
 	}
+	
+	HudSpellMenu
+    {
+		"fieldName" "HudSpellMenu"
+		"visible" "1"
+		"enabled" "1"
+		"wide" "f0"
+		"tall" "480"
+		"zpos" "2"
+		"xpos" "0"
+		"ypos" "r70"
+	 
+		"TextFont" "Default"
+		"ItemFont" "Default"
+		"ItemFontPulsing" "Default"
+    }
 
 	HudMannVsMachineStatus
 	{
@@ -1524,6 +1540,18 @@
 		"tall"			"480"
 		"PaintBackgroundType"	"0"
 	}
+
+	"HudEurekaEffectTeleportMenu"
+	{
+		"fieldName" 	"HudEurekaEffectTeleportMenu"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-125"
+		"ypos"			"c-55"
+		"wide"			"f0"
+		"tall"			"480"
+		"PaintBackgroundType"	"0"
+	}
 	
 	"HudMenuSpyDisguise"
 	{
@@ -1543,8 +1571,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-60"	
-		"ypos"			"r146"	
-		"wide"			"118"
+		"ypos"			"r143"	
+		"wide"			"120"
 		"tall"			"60"
 	}	
 
@@ -1862,5 +1890,16 @@
 		"ypos"			"100"
 		"wide"			"320"
 		"tall"			"150"
+	}
+	"HudMenuTauntSelection"
+	{
+		"fieldName" 	"HudMenuTauntSelection"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-235"
+		"ypos"			"c-64"
+		"wide"			"470"
+		"tall"			"200"
+		"PaintBackgroundType"	"0"
 	}
 }
