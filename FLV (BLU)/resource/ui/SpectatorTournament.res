@@ -13,18 +13,18 @@
 		"team1_player_base_offset_x"		"0"
 		"team1_player_base_y"				"194"   
 		"team1_player_delta_x"				"0"
-		"team1_player_delta_y"				"-15"
+		"team1_player_delta_y"				"-13"
 		
 		"team2_player_base_offset_x"		"0"
 		"team2_player_base_y"				"214"   
 		"team2_player_delta_x"				"0"
-		"team2_player_delta_y"				"15"
+		"team2_player_delta_y"				"13"
         
 		"playerpanels_kv"
 		{
 			"visible"		"0"
 			"wide"			"150"
-			"tall"			"15"
+			"tall"			"13"
 			"zpos"			"1"
 
 			"paintborder"	"1"
@@ -241,7 +241,7 @@
 				"xpos"			"35"
 				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"70"
+				"wide"			"75"
 				"tall"			"15"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -255,7 +255,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntimecover3"
 				"font"			"Shapes64"
-				"xpos"			"83"
+				"xpos"			"78"
 				"ypos"			"0"
 				"zpos"			"1"
 				"wide"			"70"
@@ -490,26 +490,6 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-		}
-		
-		"attriblabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"attriblabel"
-			"font"			"Medium7"
-			"xpos"			"0"
-			"ypos"			"30"
-			"zpos"			"2"
-			"wide"			"140"
-			"tall"			"50"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%attriblist%"
-			"textAlignment"	"south"
-			"fgcolor"		"235 226 202 255"
-			"centerwrap"	"1"
 		}
 	}
 }
