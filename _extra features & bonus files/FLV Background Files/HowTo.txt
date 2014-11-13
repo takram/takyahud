@@ -1,0 +1,60 @@
+To remove the custom image background, merge and overwrite the materials and resource folders
+
+
+////////////////////////////////////////////////////////////////////
+GRAB IT
+
+    //Download
+    To download the HUD press the "ZIP" button on top of the github page.
+
+    
+    //Installing
+    Navigate to Steam / steamapps / common / team fortress 2 / tf / custom / .
+    Move the one of the hud folders from the zip into that folder.
+	
+////////////////////////////////////////////////////////////////////
+MAKE IT YOUR OWN
+
+    //Colors & optional elements
+    Your first stop for customizing this HUD will be the clientscheme. 
+    You can find it in custom/hudname/resource.
+    .res files can be opened with text editors such as Notepad++. 
+
+    You can change colors and enable/disable certain elements.
+    Instructions are in the clientscheme itself.
+	
+    //Main Menu
+    You can enter your name for the main menu in 
+    /resource/ui/MainMenuOverride.res
+
+    The bottom right star button can connect you to your favourite server.
+    You'll need to add...
+   
+    alias Home "connect <insert server IP>;password <insert password>"
+    
+    ...to your autoexec in order to make the "Home Server" button work.
+	
+    //Main Menu
+    You can enter your name for the main menu in 
+    /resource/ui/MainMenuOverride.res
+
+    The bottom right star button can connect you to your favourite server.
+    You'll need to add...
+   
+    alias Home "connect <insert server IP>;password <insert password>"
+    
+    ...to your autoexec in order to make the "Home Server" button work.
+    
+    
+    //Crosshairs
+    To enable HUD-crosshair navigate to /scripts/hudlayou.res
+    First you'll need to locate the crosshair that you want to enable.
+    Then you can set its visible value to "1" to enable it.
+    
+    The crosshair.png image gives you an overview of the new crosshairs 
+    (they're still WIP).
+    The letter in the "labeltext" entry is used to select your crosshair. 
+    You can change its color & the on-hit flash color in the clientscheme.
+    
+    All previous crosshairs are still part of the HUD. 
+    This includes fog's, Garm3n's & konr's crosshairs.	

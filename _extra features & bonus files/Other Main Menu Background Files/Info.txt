@@ -1,0 +1,2 @@
+Merge the materials folder with your current on in /custom/hudname/materials.
+

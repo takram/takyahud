@@ -8,8 +8,8 @@
 		"ypos"		"0"
 		"wide"		"f0"
 		"tall"		"480"
-		"visible"	"1"
-		"enabled"	"1"
+		"visible"	"0"
+		"enabled"	"0"
 	}
 	"MainBackground"
 	{
@@ -24,6 +24,21 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
+	"BackgroundGeneral"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundGeneral"
+		"xpos"			"0"  //c-427 or 0
+		"ypos"			"0"
+        "zpos"			"202"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../console/background_upward_widescreen"
+		"scaleImage"	"1"
+	}  
+	
 	"MapInfo"
 	{
 		"ControlName"	"EditablePanel"

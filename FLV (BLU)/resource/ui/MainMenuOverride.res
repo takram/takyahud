@@ -5,7 +5,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"HelloName"
         
-		"labelText"		"Hey there. What's up?"  //You can edit this line
+		"labelText"		""  //You can edit this line
                                                    //Enter your name instead of "there"
         
         
@@ -114,7 +114,7 @@
 
 				"FgColor" "White"
 	            "defaultFgColor_override" "0 0 0 255"		
-				"armedFgColor_override" "Black"
+				"armedFgColor_override" "FlavorSelect"
 				"depressedFgColor_override" "0 0 0 255"
 			
 				"image_drawcolor"	"0 0 0 0"
@@ -203,7 +203,7 @@
 		"zpos"			"-11"
 		"wide"			"f0"
 		"tall"			"480"
-		"fillcolor"		"Flavor" //"Flavor"
+		"fillcolor"		"FlavorBG" //"Flavor"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -335,14 +335,14 @@
 			
 			"FgColor" "White"			
 			"defaultFgColor_override" "White"
-			"armedFgColor_override" "Black"
+			"armedFgColor_override" "FlavorSelect"
 			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"0 0 0 0"
 			"image_armedcolor" "124 124 144 255" //	"255 255 255 255"
             
-            "labeltext" "flvhud version 0.07"
-            "command" "engine con_enable 1; engine toggleconsole; clear; echo Thanks for using this HUD!"
+            "labeltext" ""	//flvhud version 0.07
+            "command" ""
             
             
             
@@ -395,7 +395,7 @@
 			
 		"FgColor" "White"			
 		"defaultFgColor_override" "White"		
-		"armedFgColor_override" "Black"
+		"armedFgColor_override" "FlavorSelect"
 		"depressedFgColor_override" "White"
 			
 		"image_drawcolor"	"0 0 0 0"
@@ -456,7 +456,7 @@
 			"paintbackground"	"1"
             "defaultFgColor_override"   "Flavor"
 			"defaultBgColor_override"	"White"
-			"armedBgColor_override"		"Black"
+			"armedBgColor_override"		"FlavorSelect"
 			"depressedBgColor_override"	"White"
 			"border_default"			"NoBorder"
 			"border_armed"				"NoBorder"
@@ -953,7 +953,7 @@
             
             "defaultFgColor_override"   "Flavor"
 			"defaultBgColor_override"	"White"
-			"armedBgColor_override"		"Black"
+			"armedBgColor_override"		"FlavorSelect"
 			"depressedBgColor_override"	"White"
 			"border_default"			"NoBorder"
 			"border_armed"				"NoBorder"
@@ -1172,7 +1172,7 @@
 			
 			"FgColor" "227 227 227 255"	
 			"defaultFgColor_override" "227 227 227 255"	
-			"armedFgColor_override" "5 4 4 255"
+			"armedFgColor_override" "FlavorSelect"
 			"depressedFgColor_override" "227 227 227 255"	
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1234,7 +1234,7 @@
 			
 			"FgColor" "White"		
 			"defaultFgColor_override" "White"		
-			"armedFgColor_override" "Black"
+			"armedFgColor_override" "FlavorSelect"
 			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1296,7 +1296,7 @@
 			
 			"FgColor"  "227 227 227 255"
 			"defaultFgColor_override"  "227 227 227 255"
-			"armedFgColor_override"   "5 4 4 255"
+			"armedFgColor_override"   "FlavorSelect"
 			"depressedFgColor_override" "227 227 227 255"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1359,7 +1359,7 @@
 			
 			"FgColor" "227 227 227 255"	
 			"defaultFgColor_override" "227 227 227 255"
-			"armedFgColor_override" "5 4 4 255"
+			"armedFgColor_override" "FlavorSelect"
 			"depressedFgColor_override" "227 227 227 255"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1421,7 +1421,7 @@
 
 			"FgColor" "White"			
 			"defaultFgColor_override" "White"
-			"armedFgColor_override" "Black"
+			"armedFgColor_override" "FlavorSelect"
 			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1483,7 +1483,7 @@
 			
 			"FgColor" "0 0 0 255"			
 			"defaultFgColor_override" "0 0 0 255"		
-			"armedFgColor_override" "Black"
+			"armedFgColor_override" "FlavorSelect"
 			"depressedFgColor_override" "0 0 0 255"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1546,7 +1546,7 @@
 			
 			"FgColor" "White"		
 			"defaultFgColor_override" "White"	
-			"armedFgColor_override" "Black"
+			"armedFgColor_override" "FlavorSelect"
 			"depressedFgColor_override" "White"	
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1609,7 +1609,7 @@
 			
 			"FgColor" "White"			
 			"defaultFgColor_override" "White"		
-			"armedFgColor_override" "Black"
+			"armedFgColor_override" "FlavorSelect"
 			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1847,7 +1847,7 @@
 			
 			"FgColor" "White"		
 			"defaultFgColor_override" "White"
-			"armedFgColor_override" "Black"
+			"armedFgColor_override" "FlavorSelect"
 			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1909,7 +1909,7 @@
 			
 			"FgColor"  "227 227 227 255"	
 			"defaultFgColor_override"  "227 227 227 255"	
-			"armedFgColor_override" "5 4 4 255"
+			"armedFgColor_override" "FlavorSelect"
 			"depressedFgColor_override" "227 227 227 255"	
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1971,7 +1971,7 @@
 			
 			"FgColor"  "227 227 227 255"	
 			"defaultFgColor_override"  "227 227 227 255"	
-			"armedFgColor_override" "5 4 4 255"
+			"armedFgColor_override" "FlavorSelect"
 			"depressedFgColor_override" "227 227 227 255"	
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2034,7 +2034,7 @@
 			
 			"FgColor" "White"			
 			"defaultFgColor_override" "White"	
-			"armedFgColor_override" "Black"
+			"armedFgColor_override" "FlavorSelect"
 			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2096,7 +2096,7 @@
 			
 			"FgColor" "White"		
 			"defaultFgColor_override" "White"
-			"armedFgColor_override" "Black"
+			"armedFgColor_override" "FlavorSelect"
 			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2159,7 +2159,7 @@
 			
 			"FgColor" "White"			
 			"defaultFgColor_override" "White"	
-			"armedFgColor_override" "Black"
+			"armedFgColor_override" "FlavorSelect"
 			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2222,7 +2222,7 @@
 			
 			"FgColor" "White"			
 			"defaultFgColor_override" "White"	
-			"armedFgColor_override" "Black"
+			"armedFgColor_override" "FlavorSelect"
 			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2284,7 +2284,7 @@
 			
 			"FgColor" "White"			
 			"defaultFgColor_override" "White"	
-			"armedFgColor_override" "Black"
+			"armedFgColor_override" "FlavorSelect"
 			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2346,7 +2346,7 @@
 			
 			"FgColor"  "227 227 227 255"	
 			"defaultFgColor_override"  "227 227 227 255"	
-			"armedFgColor_override" "5 4 4 255"
+			"armedFgColor_override" "FlavorSelect"
 			"depressedFgColor_override" "227 227 227 255"	
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2408,7 +2408,7 @@
 			
 			"FgColor"  "227 227 227 255"	
 			"defaultFgColor_override"  "227 227 227 255"	
-			"armedFgColor_override" "5 4 4 255"
+			"armedFgColor_override" "FlavorSelect"
 			"depressedFgColor_override" "227 227 227 255"	
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2605,7 +2605,7 @@
 			
 			"FgColor"  "227 227 227 255"	
 			"defaultFgColor_override"  "227 227 227 255"	
-			"armedFgColor_override" "5 4 4 255"
+			"armedFgColor_override" "FlavorSelect"
 			"depressedFgColor_override" "227 227 227 255"	
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2811,7 +2811,7 @@
 			
 			"FgColor"  "227 227 227 255"	
 			"defaultFgColor_override"  "227 227 227 255"	
-			"armedFgColor_override" "5 4 4 255"
+			"armedFgColor_override" "FlavorSelect"
 			"depressedFgColor_override" "227 227 227 255"	
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2866,7 +2866,7 @@
 
 		"FgColor" "White"	
 		"defaultFgColor_override" "White"	
-		"armedFgColor_override" "Black"
+		"armedFgColor_override" "FlavorSelect"
 		"depressedFgColor_override" "White"
 			
 		"image_drawcolor"	"0 0 0 0"
