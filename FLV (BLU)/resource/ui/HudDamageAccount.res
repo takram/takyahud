@@ -9,8 +9,8 @@
 		"PositiveColor"			"Green"
 		"NegativeColor"			"Damage"
 		"delta_lifetime"		"3.0"
-		"delta_item_font"		"DataLabelBig"
-		"delta_item_font_big"	"DataLabelBig"
+		"delta_item_font"		"Damage"
+		"delta_item_font_big"	"Damage"
 	}
 
 	

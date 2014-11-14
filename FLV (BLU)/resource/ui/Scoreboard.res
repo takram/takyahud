@@ -94,7 +94,7 @@
 		"use_proportional_insets" "1"
         "xpos"          "4"  
         "xpos_minmode"          "4"  
-        "ypos"          "15" 
+        "ypos"          "16" 
         "zpos"          "4"
         
         "wide"          "378"
@@ -108,6 +108,30 @@
             "visible" "0"
         }
     }
+	"MapName"
+    {
+        "ControlName"   "CExLabel"
+        "fieldName"     "mapname"
+        "font"          "NoveMedium10"
+        "labelText"     "%mapname%"
+        "textAlignment" "west"
+        "textinsetx"	"1"
+		"use_proportional_insets" "1"
+        "xpos"          "3"  	//22 or c182
+        "ypos"          "28" 	//28
+        "zpos"          "4"
+        
+        "wide"          "80"
+        "tall"          "11"
+        "visible"       "1"
+        "enabled"       "1"
+        "fgcolor"       "White"
+
+        if_mvm
+        {
+            "visible" "0"
+        }
+    }	
     "Spectators"
 	{
 		"ControlName"	"CExLabel"
@@ -117,7 +141,7 @@
 		"fgcolor"			"White"
 		"textAlignment"	"north-west"
 		"xpos"			"4"
-		"ypos"			"26"
+		"ypos"			"39"
 		"zpos"			"4"
 		"wide"			"360"
 		"tall"			"82"
@@ -147,7 +171,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBG"
 		"xpos"			"c-228"
-		"ypos"			"c53"
+		"ypos"			"c4"
 		"ypos_minmode"		"r125"
 		"zpos"			"-2"
 		"wide"			"456"
@@ -237,7 +261,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BlueLabelBG"
 		"xpos"			"c-228"
-		"ypos"			"c39"
+		"ypos"			"c-13"
 		"ypos_minmode"		"r126"
         "zpos" "3"
 		"wide"			"228"
@@ -260,7 +284,7 @@
 		"fgcolor"		"White"
 		"textAlignment"	"west"
 		"xpos"			"c-224"
-		"ypos"			"r202"
+		"ypos"			"r254"
 		"ypos_minmode"		"r127"
         "zpos" "4"
 		"wide"			"222"
@@ -284,7 +308,7 @@
 		"fgcolor"		"White"
 		"textAlignment"	"east"
 		"xpos"			"c-224"
-		"ypos"			"r202"
+		"ypos"			"r253"
 		"ypos_minmode"		"r127"
         "zpos" "4"
 		"wide"			"220"
@@ -323,7 +347,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedLabelBG"
 		"xpos"			"c"
-		"ypos"			"c39"
+		"ypos"			"c-13"
 		"ypos_minmode"		"r126"
         "zpos" "3"
 		"wide"			"228"
@@ -346,7 +370,7 @@
 		"fgcolor"		"White"
 		"textAlignment"	"east"
 		"xpos"			"c3"
-		"ypos"			"r202"
+		"ypos"			"r254"
 		"ypos_minmode"		"r127"
         "zpos" "4"
 		"wide"			"222"
@@ -370,7 +394,7 @@
 		"fgcolor"		"White"
 		"textAlignment"	"west"
 		"xpos"			"c5"
-		"ypos"			"r202"
+		"ypos"			"r253"
 		"ypos_minmode"		"r127"
         "zpos" "4"
 		"wide"			"222"
@@ -430,7 +454,7 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
 		"xpos"			"c-230"
-		"ypos"			"r196"
+		"ypos"			"c-7"
 		"ypos_minmode"		"r120"
 		"zpos"			"1"
 		"wide"			"232"
@@ -452,7 +476,7 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
 		"xpos"			"c-3"
-		"ypos"			"r196"
+		"ypos"			"c-7"
 		"ypos_minmode"		"r120"
 		"zpos"			"1"
 		"wide"			"233"
@@ -1490,6 +1514,70 @@
 				"wide"		"163"
 			}
 		}
+		"SupportLabel"		//2014 june update
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"SupportLabel"
+			"font"			"NoveMedium8"
+			"labelText"		"Support:"
+			"fgcolor"		"Black"
+			"textAlignment"		"east"
+			"xpos"			"c100"
+			"ypos"			"r29"
+			"zpos"			"3"
+			"wide"			"80"
+			"tall"			"11"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		"Support"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Support"
+			"font"			"NoveMedium8"
+			"labelText"		"%support%"
+			"fgcolor"		"Black"
+			"textAlignment"	"west"
+			"xpos"			"c182"
+			"ypos"			"r29"
+			"zpos"			"3"
+			"wide"			"163"
+			"tall"			"11"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		"DamageLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"DamageLabel"
+			"font"			"NoveMedium8"
+			"labelText"		"Damage:"
+			"fgcolor"		"Black"
+			"textAlignment"		"east"
+			"xpos"			"c100"
+			"ypos"			"r21"
+			"zpos"			"3"
+			"wide"			"80"
+			"tall"			"11"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		"Damage"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Damage"
+			"font"			"NoveMedium8"
+			"labelText"		"%damage%"
+			"fgcolor"		"Black"
+			"textAlignment"	"west"
+			"xpos"			"c182"
+			"ypos"			"r21"
+			"zpos"			"3"
+			"wide"			"163"
+			"tall"			"11"
+			"visible"		"1"
+			"enabled"		"1"
+		}
 		"StatsBG"
 		{
 			"ControlName"	"ImagePanel"
@@ -1569,54 +1657,6 @@
 				"wide"		"26"
 				"tall"		"53"
 			}
-		}
-		"MapName"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"mapname"
-			"font"			"NoveMedium10"
-			"labelText"		"%mapname%"
-			"textAlignment" 	"center"
-			"xpos"			"c151"
-			"ypos"			"r25"
-			"zpos"			"3"
-			"wide"			"71"
-			"tall"			"11"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"Black"
-
-			if_mvm
-			{
-				"font"			"NoveMedium18"
-                "textAlignment" 	"east"
-				"xpos"			"c21"
-                "ypos"			"r368"
-                "zpos"          "15"
-                "wide"			"270"
-                "tall"			"18"
-                "fgcolor"		"Black"
-			}	
-		}
-		"GameType"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"gametype"
-			"font"			"NoveMedium8"
-			"labelText"		"%gametype%"
-			"textAlignment" 	"center"
-			"xpos"			"c151"
-			"ypos"			"r16"
-			"zpos"			"3"
-			"wide"			"71"
-			"tall"			"11"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"Black"
 		}
 	}
 

@@ -60,6 +60,8 @@
 			"inset_eq_x"	"4"
 			"inset_eq_y"	"2"
 			
+			"deferred_description"	"1"
+			
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
@@ -116,6 +118,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor_override"	"Blank"
 	}
 	
 	"TopLine"
@@ -183,7 +186,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "WhiteS"
+		"fgcolor_override" "White"
 	}
 	
 	"CancelButton"
@@ -209,6 +212,26 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
+	
+	"OnlyAllowUniqueQuality"
+	{
+		"ControlName"	"CheckButton"
+		"fieldName"		"OnlyAllowUniqueQuality"
+		"labelText"		"#OnlyAllowUniqueQuality"
+		"Font"			"HudFontSmallestBold"
+		"textAlignment"	"east"
+		"xpos"			"c-290"
+		"ypos"			"345"
+		"zpos"			"1"
+		"wide"			"290"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+	}
 	
 	"ShowBackpack"
 	{

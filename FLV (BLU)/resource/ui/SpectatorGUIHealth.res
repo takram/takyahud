@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TargetHPBG"
-		"xpos"		"0"
+		"xpos"		"5"
 		"ypos"		"0"
 		"zpos"		"-40"
 		"wide"		"46"
@@ -80,7 +80,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSpec"
-		"xpos"			"-4"
+		"xpos"			"0"
 		"ypos"			"-5"
 		"zpos"			"5"
 		"wide"			"54"

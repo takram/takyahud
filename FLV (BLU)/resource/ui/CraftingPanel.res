@@ -57,26 +57,6 @@
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
-			
-			"namelabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"namelabel"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"50"
-				"tall"			"30"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"labelText"		"%itemname%"
-				"textAlignment"	"south"
-				"fgcolor"		"WhiteS"
-				"wrap"			"1"
-				"centerwrap"	"1"
-			}
 		}
 		
 		"recipebuttons_kv"

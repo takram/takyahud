@@ -5600,6 +5600,12 @@ Scheme
 			"color" "Blank"
 			"offset" "0 0"
 		}
+		
+		FlavorBorder
+		{
+			"color" "57 54 54 255"
+			"offset" "0 0"
+		}
 
 		ComboBoxBorder
 		{

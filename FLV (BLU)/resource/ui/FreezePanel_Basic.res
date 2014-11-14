@@ -79,7 +79,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
 		"xpos"			"r300"
-		"ypos"			"400"		
+		"ypos"			"300"		
 		"wide"			"f0"		
 		"tall"			"480"		
 		"visible"		"1"

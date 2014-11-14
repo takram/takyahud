@@ -39,6 +39,7 @@
 			"bgcolor_override"		"0 0 0 255"
 			"noitem_textcolor"		"110 110 110 255"
 			"PaintBackgroundType"	"2"
+			"border"        "NoBorder"
 			"paintborder"	"0"
 			
 			"model_xpos"	"7"
@@ -96,6 +97,7 @@
 		"enabled"		"1"
 	}
 
+	
 	"FiltersLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -201,6 +203,7 @@
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"PaintBackgroundType"	"2"
+		"border"		    "NoBorder"
 		"paintborder"	"0"
 		
 		"model_hide"	"1"
@@ -226,6 +229,7 @@
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"PaintBackgroundType"	"2"
+		"border"		    "NoBorder"
 		"paintborder"	"0"
 		
 		"model_ypos"	"10"
