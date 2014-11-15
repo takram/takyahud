@@ -66,8 +66,6 @@
 				"font"				"HudFontSmallestBold"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-				
-				"armedBgColor_override"	"FlavorBackpack"
 			}
 
 			"New"
@@ -423,8 +421,6 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-      
-		"armedBgColor_override"	"FlavorBackpack"
 	}		
 	
 	"CurPageLabel"
@@ -468,8 +464,6 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"armedBgColor_override"	"FlavorBackpack"
 	}	
 	
 	"DragToNextPageButton"
@@ -494,8 +488,6 @@
 		"Command"		""
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"armedBgColor_override"	"FlavorBackpack"
 	}		
 	"DragToPrevPageButton"
 	{
@@ -519,8 +511,6 @@
 		"Command"		""
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"armedBgColor_override"	"FlavorBackpack"
 	}		
 	
 	"CancelApplyToolButton"
@@ -571,8 +561,6 @@
 		"Command"		"deleteitem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"armedBgColor_override"	"FlavorBackpack"
 	}			
 
 	"UseButton"
@@ -598,8 +586,6 @@
 		"Command"		"useitem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"armedBgColor_override"	"FlavorBackpack"
 	}
 
 	"StyleButton"
@@ -625,8 +611,6 @@
 		"Command"		"showstyles"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"armedBgColor_override"	"FlavorBackpack"
 	}
 	
 	"DetailsButton"
@@ -652,8 +636,6 @@
 		"Command"		"showdetails"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"armedBgColor_override"	"FlavorBackpack"
 	}
 
 	"ShowExplanationsButton"
@@ -679,8 +661,6 @@
 		"Command"		"show_explanations"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"armedBgColor_override"	"FlavorBackpack"
 	}
 	
 	"StartExplanation"

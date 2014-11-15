@@ -19,10 +19,10 @@
 		"fieldName"		"MainBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-5"
+		"zpos"			"-6"
 		"wide"			"f0"
 		"tall"			"480"
-		"fillcolor"		"Flavor"
+		"fillcolor"		"0 0 0 0"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -101,8 +101,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MapImage"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"0"
 		"wide"			"0"
 		"tall"			"0"
