@@ -67,7 +67,7 @@ Scheme
 		"FlavorBackpack"	"18 127 220 255"	//Backpack Selections GrayBGDark otherwise
 		
 		"ButtonBG"              "107 107 107 255"        //Standard button color
-		"ButtonArmed"		    "54 54 54 255"		     //Armed color
+		"ButtonArmed"		    "18 127 220 255"		     //Armed color	54 54 54 255
 		"ButtonSelect"	         "27 27 27 255"
 		
         "White"				"227 227 227 255"
