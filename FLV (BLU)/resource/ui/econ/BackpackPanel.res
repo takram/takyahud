@@ -66,6 +66,8 @@
 				"font"				"HudFontSmallestBold"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				"armedBgColor_override"	"FlavorBackpack"
 			}
 
 			"New"
@@ -386,8 +388,8 @@
 		"paintborder"	"1"
 		
 		"model_ypos"	"3"
-		"model_tall"	"18"
-		"text_ypos"		"30"
+		"model_tall"	"35"
+		"text_ypos"		"60"
 		"text_center"	"1"
 		"name_only"		"1"
 		"model_only"	"1"
@@ -421,6 +423,8 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+      
+		"armedBgColor_override"	"FlavorBackpack"
 	}		
 	
 	"CurPageLabel"
@@ -464,6 +468,8 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"armedBgColor_override"	"FlavorBackpack"
 	}	
 	
 	"DragToNextPageButton"
@@ -488,6 +494,8 @@
 		"Command"		""
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"armedBgColor_override"	"FlavorBackpack"
 	}		
 	"DragToPrevPageButton"
 	{
@@ -511,6 +519,8 @@
 		"Command"		""
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"armedBgColor_override"	"FlavorBackpack"
 	}		
 	
 	"CancelApplyToolButton"
@@ -542,7 +552,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DeleteButton"
-		"xpos"			"c-85"
+		"xpos"			"c-175"
 		"ypos"			"323"
 		"zpos"			"20"
 		"wide"			"100"
@@ -561,13 +571,15 @@
 		"Command"		"deleteitem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"armedBgColor_override"	"FlavorBackpack"
 	}			
 
 	"UseButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"UseButton"
-		"xpos"			"c35"
+		"xpos"			"c-65"
 		"ypos"			"323"
 		"zpos"			"20"
 		"wide"			"130"
@@ -586,8 +598,37 @@
 		"Command"		"useitem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"armedBgColor_override"	"FlavorBackpack"
 	}
 
+	"StyleButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"StyleButton"
+		"xpos"			"c75"
+		"ypos"			"323"
+		"zpos"			"20"
+		"wide"			"100"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"0"
+		"tabPosition"	"0"
+		"labelText"		"#Style"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"textinsetx"	"50"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"showstyles"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"armedBgColor_override"	"FlavorBackpack"
+	}
+	
 	"DetailsButton"
 	{
 		"ControlName"	"CExButton"
@@ -611,6 +652,8 @@
 		"Command"		"showdetails"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"armedBgColor_override"	"FlavorBackpack"
 	}
 
 	"ShowExplanationsButton"
@@ -636,6 +679,8 @@
 		"Command"		"show_explanations"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"armedBgColor_override"	"FlavorBackpack"
 	}
 	
 	"StartExplanation"

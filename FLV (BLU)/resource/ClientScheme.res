@@ -64,6 +64,7 @@ Scheme
         "Flavor"			"18 127 220 255"    //chosen team
 		"FlavorBG"			"0 0 0 0"			//0 0 0 0 for custom BG, same as Flavor for FLV solid BG
 		"FlavorSelect"		"18 127 220 255"	//Same as Flavor for custom BG otherwise 0 0 0 255
+		"FlavorBackpack"	"18 127 220 255"	//Backpack Selections GrayBGDark otherwise
 		
 		"ButtonBG"              "107 107 107 255"        //Standard button color
 		"ButtonArmed"		    "54 54 54 255"		     //Armed color
@@ -6045,7 +6046,7 @@ Scheme
             "backgroundtype"        "2"
             
             "image"                    "backpack_rect_mouseover_color"
-            "color"                    "GrayBGDark"
+            "color"                    "FlavorBackpack"
             "src_corner_height"        "24"                // pixels inside the image
             "src_corner_width"        "24"
             "draw_corner_width"        "0"                // screen size of the corners ( and sides ), proportional
@@ -6363,7 +6364,55 @@ Scheme
             "src_corner_width"        "24"
             "draw_corner_width"        "0"                // screen size of the corners ( and sides ), proportional
             "draw_corner_height"     "0"    
-        }		
+        }
+		BackpackItemBorder_Collectors
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"QualityColorCollectors"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+		BackpackItemMouseOverBorder_Collectors
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"QualityColorCollectors"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+		BackpackItemGreyedOutBorder_Collectors
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"QualityColorCollectors_GreyedOut"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+		BackpackItemGreyedOutSelectedBorder_Collectors
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"QualityColorCollectors_GreyedOut"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}		
 		StoreItemBorder
 		{
 			"inset" "0 0 1 1"
