@@ -47,18 +47,12 @@ event HudHealthBonusPulse
     Animate	HealthBG 	    BgColor		"Positive"	        Accel 0.0 0.0
     Animate	HealthBG 	    Alpha		"255"		        Accel 0.0 0.3
 	Animate	HealthBG 	    Alpha		"255"		        Accel 0.3 0.6
-	Animate	TargetHPBG 	    BgColor		"Positive"	    Accel 0.0 0.0
-    Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.0 0.3
-	Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.3 0.6
-    Animate	SpecBG 	        BgColor		"Positive"	    Accel 0.0 0.0
-    Animate	SpecBG 	        Alpha		"255"		        Accel 0.0 0.3
-	Animate	SpecBG 	        Alpha		"255"		        Accel 0.3 0.6
+
+	Animate HealthBarBuff		Alpha	"255"		Accel 0.0 0.0
+	Animate HealthBarBuff2	Alpha	"255"		Accel 0.0 0.0
 	
-	Animate HealthBarBuffTournament		Alpha	"255"		Accel 0.0 0.0
-	Animate HealthBarBuffTournament2	Alpha	"255"		Accel 0.0 0.0
-	
-	Animate HealthBarBuffTournament		Alpha	"0"			Accel 0.0 0.4
-	Animate HealthBarBuffTournament		Alpha	"255"		Accel 0.2 0.2
+	Animate HealthBarBuff		Alpha	"0"			Accel 0.0 0.4
+	Animate HealthBarBuff		Alpha	"255"		Accel 0.2 0.2
 
 	RunEvent HudHealthBonusPulseLoop	0.6
 }
@@ -89,13 +83,9 @@ event HudHealthBonusPulseStop
     
     Animate	HealthBG 	     BgColor		"Blank"	       Accel 0.0 0.0
     Animate	HealthBG 	     Alpha		    "255"		           Accel 0.0 0.0
-	Animate	TargetHPBG 	     BgColor		"Black"	       Accel 0.0 0.0
-    Animate	TargetHPBG 	     Alpha		    "255"		           Accel 0.0 0.0
-    Animate	SpecBG 	         BgColor		"Black"	       Accel 0.0 0.0
-    Animate	SpecBG 	         Alpha		    "255"		           Accel 0.0 0.0
-	
-	Animate HealthBarBuffTournament	Alpha	"0"		Accel 0.0 0.0
-	Animate HealthBarBuffTournament2	Alpha	"0"	Accel 0.0 0.0
+
+	Animate HealthBarBuff	Alpha	"0"		Accel 0.0 0.0
+	Animate HealthBarBuff2	Alpha	"0"	Accel 0.0 0.0
     
 }
 
@@ -115,18 +105,12 @@ event HudHealthDyingPulse
     Animate	HealthBG 	    BgColor		"Negative"	    Accel 0.0 0.0
     Animate	HealthBG 	    Alpha		"255"		        Accel 0.0 0.3
 	Animate	HealthBG 	    Alpha		"255"		        Accel 0.3 0.6
-	Animate	TargetHPBG 	    BgColor	    "Negative"	    Accel 0.0 0.0
-    Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.0 0.3
-	Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.3 0.6
-    Animate	SpecBG 	        BgColor		"Negative"	    Accel 0.0 0.0
-    Animate	SpecBG 	        Alpha		"255"		        Accel 0.0 0.3
-	Animate	SpecBG 	        Alpha		"255"		        Accel 0.3 0.6
+
+	Animate HealthBarHurt		Alpha	"255"		Accel 0.0 0.0
+	Animate HealthBarHurt2	Alpha	"255"		Accel 0.0 0.0
 	
-	Animate HealthBarHurtTournament		Alpha	"255"		Accel 0.0 0.0
-	Animate HealthBarHurtTournament2	Alpha	"255"		Accel 0.0 0.0
-	
-	Animate HealthBarHurtTournament		Alpha	"0"			Accel 0.0 0.4
-	Animate HealthBarHurtTournament		Alpha	"255"		Accel 0.2 0.2
+	Animate HealthBarHurt		Alpha	"0"			Accel 0.0 0.4
+	Animate HealthBarHurt		Alpha	"255"		Accel 0.2 0.2
 
 	RunEvent HudHealthDyingPulseLoop	0.6
 }
@@ -158,13 +142,9 @@ event HudHealthDyingPulseStop
     
     Animate	HealthBG 	     BgColor		"Blank"	        Accel 0.0 0.0
     Animate	HealthBG 	     Alpha		    "255"		            Accel 0.0 0.0
-	Animate	TargetHPBG 	     BgColor		"Black"	        Accel 0.0 0.0
-    Animate	TargetHPBG 	     Alpha		    "255"		            Accel 0.0 0.0
-    Animate	SpecBG 	         BgColor		"Black"	       Accel 0.0 0.0
-    Animate	SpecBG 	         Alpha		    "255"		           Accel 0.0 0.0
-	
-	Animate HealthBarHurtTournament		Alpha	"0"		Accel 0.0 0.0
-	Animate HealthBarHurtTournament2	Alpha	"0"		Accel 0.0 0.0	
+
+	Animate HealthBarHurt		Alpha	"0"		Accel 0.0 0.0
+	Animate HealthBarHurt2	Alpha	"0"		Accel 0.0 0.0	
     
 }
 
