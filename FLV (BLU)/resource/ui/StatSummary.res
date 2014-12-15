@@ -24,20 +24,6 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
-	"BackgroundGeneral"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BackgroundGeneral"
-		"xpos"			"0"  //c-427 or 0
-		"ypos"			"0"
-        "zpos"			"202"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../console/background_upward_widescreen"
-		"scaleImage"	"1"
-	}  
 	
 	"MapInfo"
 	{
@@ -45,7 +31,6 @@
 		"fieldName"	"MapInfo"
 		"xpos"		"0"
 		"ypos"		"0"
-        "zpos"          "202"
 		"wide"		"f0"
 		"tall"		"480"
 		"visible"	"0"
@@ -57,11 +42,11 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Background"
 			"xpos"			"0"
-			"ypos"			"9999"
+			"ypos"			"0"			//9999
 			"wide"			"640"
 			"tall"			"480"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			""
 			"scaleImage"	"1"
 		}
@@ -70,10 +55,10 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"MapImage"
 			"xpos"			"30"
-			"ypos"			"9999"
+			"ypos"			"45"
 			"zpos"			"2"
-			"wide"			"300"
-			"tall"			"300"
+			"wide"			"0"		//300
+			"tall"			"0"		//300
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
@@ -189,7 +174,7 @@
 			"textAlignment"	"north"
 			"xpos"			"17"
 			"ypos"			"80"
-			"zpos"			"80"
+			"zpos"			"2"
 			"wide"			"275"
 			"tall"			"30"
 			"autoResize"	"0"
@@ -226,7 +211,7 @@
 		"textAlignment"	"west"
 		"xpos"			"15"
 		"ypos"			"12"
-		"zpos"			"205"
+		"zpos"			"50"
 		"wide"			"f0"
 		"tall"			"48"
 		"autoResize"	"0"
@@ -243,7 +228,7 @@
 		"textAlignment"	"west"
 		"xpos"			"17"
 		"ypos"			"54"
-		"zpos"			"205"
+		"zpos"			"50"
 		"wide"			"450"
 		"tall"			"16"
 		"autoResize"	"0"

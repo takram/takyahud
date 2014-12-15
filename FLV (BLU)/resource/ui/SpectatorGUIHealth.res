@@ -1,6 +1,6 @@
 "Resource/UI/SpectatorGUIHealth.res"
 {
-    "TargetHPBG"	
+    "TargetHPBG"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TargetHPBG"
@@ -109,6 +109,78 @@
 		"fgcolor"		"HudShadow"
 	}	
 
+//Health Pulse taken from bwHUD
 
-	
+	"HealthBarBuff"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBarBuff"
+		"xpos"		"5"
+		"ypos"		"0"
+		"zpos"		"-38"
+		"wide"		"46"
+		"tall"		"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"alpha"			"0"		
+		"fillcolor"		"0 185 255 80"
+		"PaintBackgroundType"	"0"
+	}
+	"HealthBarBuff2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBarBuff2"
+		"xpos"		"5"
+		"ypos"		"0"
+		"zpos"		"-39"
+		"wide"		"46"
+		"tall"		"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"alpha"			"0"		
+		"fillcolor"		"12 12 90 80"
+		"PaintBackgroundType"	"0"
+	}
+	"HealthBarHurt"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBarHurt"
+		"xpos"		"5"
+		"ypos"		"0"
+		"zpos"		"-38"
+		"wide"		"46"
+		"tall"		"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"alpha"			"0"		
+		"fillcolor"		"255 70 40 80"
+		"PaintBackgroundType"	"0"
+	}
+	"HealthBarHurt2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBarHurt2"
+		"xpos"		"5"
+		"ypos"		"0"
+		"zpos"		"-39"
+		"wide"		"46"
+		"tall"		"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"alpha"			"0"		
+		"fillcolor"		"90 12 12 80"
+		"PaintBackgroundType"	"0"
+	}
 }
