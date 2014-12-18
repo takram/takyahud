@@ -4,14 +4,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"4"
+		"xpos"			"0"
 		"ypos"			"2"
 		"zpos"			"4"
 		"wide"			"24"
 		"tall"			"24"
 		"visible"		"0"
 		"enabled"		"0"
-		"textAlignment"	"center"
+		"textAlignment"	"west"
 		"scaleImage"	"1"	
 	}		
 	"PlayerStatusHealthImageBG"
@@ -63,7 +63,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"1"
+		"xpos"			"0"
 		"ypos"			"1"
 		"zpos"			"5"
 		"wide"			"252"

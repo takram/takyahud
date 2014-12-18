@@ -43,10 +43,6 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthValueCam 	    FgColor		"Buff"	        Accel 0.0 0.0
     Animate	PlayerStatusHealthValueSpec 	FgColor		"Buff"	        Accel 0.0 0.0  
 	Animate	PlayerStatusHealthValueTour  	FgColor		"Buff"          Accel 0.0 0.0
-    
-    Animate	HealthBG 	    BgColor		"Positive"	        Accel 0.0 0.0
-    Animate	HealthBG 	    Alpha		"255"		        Accel 0.0 0.3
-	Animate	HealthBG 	    Alpha		"255"		        Accel 0.3 0.6
 
 	Animate HealthBarBuff		Alpha	"255"		Accel 0.0 0.0
 	Animate HealthBarBuff2	Alpha	"255"		Accel 0.0 0.0
@@ -80,9 +76,6 @@ event HudHealthBonusPulseStop
 	Animate	PlayerStatusHealthValueCam 	    FgColor		"Health"	        Accel 0.0 0.0
     Animate	PlayerStatusHealthValueSpec 	FgColor		"Health"	        Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueTour  	FgColor		"Health"            Accel 0.0 0.0
-    
-    Animate	HealthBG 	     BgColor		"Blank"	       Accel 0.0 0.0
-    Animate	HealthBG 	     Alpha		    "255"		           Accel 0.0 0.0
 
 	Animate HealthBarBuff	Alpha	"0"		Accel 0.0 0.0
 	Animate HealthBarBuff2	Alpha	"0"	Accel 0.0 0.0
@@ -101,10 +94,6 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthValueCam 	    FgColor		"Low"	        Accel 0.0 0.0
     Animate	PlayerStatusHealthValueSpec 	FgColor		"Low"	        Accel 0.0 0.0  
 	Animate	PlayerStatusHealthValueTour  	FgColor		"Low"          Accel 0.0 0.0
-    
-    Animate	HealthBG 	    BgColor		"Negative"	    Accel 0.0 0.0
-    Animate	HealthBG 	    Alpha		"255"		        Accel 0.0 0.3
-	Animate	HealthBG 	    Alpha		"255"		        Accel 0.3 0.6
 
 	Animate HealthBarHurt		Alpha	"255"		Accel 0.0 0.0
 	Animate HealthBarHurt2	Alpha	"255"		Accel 0.0 0.0
@@ -139,9 +128,6 @@ event HudHealthDyingPulseStop
 	Animate	PlayerStatusHealthValueCam 	    FgColor		"Health"	         Accel 0.0 0.0
     Animate	PlayerStatusHealthValueSpec 	FgColor		"Health"	         Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueTour  	FgColor		"Health"             Accel 0.0 0.0
-    
-    Animate	HealthBG 	     BgColor		"Blank"	        Accel 0.0 0.0
-    Animate	HealthBG 	     Alpha		    "255"		            Accel 0.0 0.0
 
 	Animate HealthBarHurt		Alpha	"0"		Accel 0.0 0.0
 	Animate HealthBarHurt2	Alpha	"0"		Accel 0.0 0.0	
