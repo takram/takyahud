@@ -4812,6 +4812,7 @@ Scheme
 			{
 				"name"		"AvenirLTStd-Medium"
 				"tall"		"14"
+				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -4822,6 +4823,7 @@ Scheme
 			{
 				"name"		"AvenirLTStd-Medium"
 				"tall"		"20"
+				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -4832,6 +4834,7 @@ Scheme
 			{
 				"name"		"AvenirLTStd-Medium"
 				"tall"		"20"
+				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -4842,6 +4845,7 @@ Scheme
 			{
 				"name"		"AvenirLTStd-Medium"
 				"tall"		"28"
+				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -4853,30 +4857,40 @@ Scheme
 			{
 				"name"		"AvenirLTStd-Medium"
 				"tall"		"44"
+				"range" 	"0x0000 0x00FF"
+				"yres"		"1 599"
 				"antialias" "1"
 			}
 			"2"
 			{
 				"name"		"AvenirLTStd-Medium"
 				"tall"		"72"
+				"range" 	"0x0000 0x00FF"
+				"yres"		"600 767"
 				"antialias" "1"
 			}
 			"3"
 			{
 				"name"		"AvenirLTStd-Medium"
 				"tall"		"80"
+				"range" 	"0x0000 0x00FF"
+				"yres"		"768 1023"
 				"antialias" "1"
 			}
 			"4"
 			{
 				"name"		"AvenirLTStd-Medium"
 				"tall"		"100"
+				"range" 	"0x0000 0x00FF"
+				"yres"		"1024 1199"
 				"antialias" "1"
 			}
 			"5"
 			{
 				"name"		"AvenirLTStd-Medium"
 				"tall"		"180"
+				"range" 	"0x0000 0x00FF"
+				"yres"		"1200 10000"
 				"antialias" "1"
 			}
 		}
@@ -4967,7 +4981,7 @@ Scheme
 			"1"
 			{
 				"name"		"AvenirLTStd-Medium"
-				"tall"		"9"
+				"tall"		"18"
 				"antialias"		"1"
 			}
 		}

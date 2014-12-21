@@ -5,23 +5,23 @@
 		"ControlName"	"Panel"
 		"fieldName"		"Background"
 		"xpos"			"1"
-		"ypos"			"9999"
+		"ypos"			"1"
 		"zpos"			"2"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"16"
+		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"PaintBackgroundType" "2"
-		"bgcolor_override"	"Blank"
+		"bgcolor_override"	"tanlight"
 	}
 	
 	"EnemyIcon"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"EnemyIcon"
-		"xpos"			"22"
-		"ypos"			"4"
+		"xpos"			"2"
+		"ypos"			"2"
 		"zpos"			"3"
 		"wide"			"14"
 		"tall"			"14"
@@ -41,6 +41,6 @@
 		"ypos"			"5"
 		"wide"			"250"
 		"tall"			"32"
-		"fgcolor"		"Blank"
+		"fgcolor"		"tanlight"
 	}
 }

@@ -78,7 +78,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
-		"xpos"			"0"
+		"xpos"			"15"
 		"ypos"			"79"		
 		"wide"			"f0"		
 		"tall"			"480"		
@@ -128,7 +128,7 @@
 			"ControlName"	"CTFFreezePanelHealth"
 			"fieldName"		"FreezePanelHealth"
 			"xpos"			"5"
-			"ypos"			"40"
+			"ypos"			"50"
 			"zpos"			"5"
 			"wide"			"252"
 			"tall"			"66"

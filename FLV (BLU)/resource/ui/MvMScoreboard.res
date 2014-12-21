@@ -78,10 +78,10 @@
 		"xpos"			"100"
 		"ypos"			"75"
 		"zpos"			"-1"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"450"
+		"tall"			"150"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"image"			"../hud/tournament_panel_brown"
 		
 		"scaleImage"		"1"
@@ -116,6 +116,7 @@
 		"fieldName"		"CreditStatsContainer"
 		"xpos"			"0"
 		"ypos"			"190"
+		"zpos"			"30"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
@@ -197,6 +198,22 @@
 			"tall"			"100"
 			"wide"			"200"
 			"visible"		"1"
+		}
+		
+		"RespecStatusLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"RespecStatusLabel"
+			"font"			"NotoBold12"
+			"labelText"		"%respecstatus%"
+			"textAlignment" "east"
+			"xpos"			"0"
+			"ypos"			"r197"
+			"zpos"			"30"
+			"wide"			"520"
+			"tall"			"13"
+			"textinsetx"	"3"
+			"fgcolor"		"NotoWhite"
 		}
 	}
 }

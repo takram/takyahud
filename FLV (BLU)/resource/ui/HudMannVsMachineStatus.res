@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"20"
+		"xpos"				"-20"
 		"ypos"				"0"
 		"zpos"				"0"
 		"wide"				"f0"

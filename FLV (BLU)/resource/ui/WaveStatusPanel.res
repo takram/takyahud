@@ -104,13 +104,7 @@
 		"src_corner_width"	"22"
 	
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
-        
-        
-        if_verbose
-		{
-			"xpos"			"c-197"
-		}	
+		"draw_corner_height" 	"0"		
 	}
 
 	"MainBG"
@@ -126,12 +120,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"
-        
-        if_verbose
-		{
-			"xpos"			"c-197"
-		}	
+		"enabled"		"1"	
 	}	
 	"ProgressBarBG"
 	{

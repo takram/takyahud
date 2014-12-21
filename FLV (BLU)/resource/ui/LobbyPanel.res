@@ -17,6 +17,8 @@
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"GrayBG"
 
+		"NavToRelay"	"MvMTourOfDutyGroupBox"
+		"NavDown"		"MvMEconItemsGroupBox"
 	}
 
 	"QuickplaySearchCriteriaGroupBox"
@@ -29,251 +31,272 @@
 		"wide"		"400"
 		"tall"		"300"
 
-		"CurPageLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CurPageLabel"
-			"font"			"HudFontSmallBold"
-			"labelText"		"%page%"
-			"textAlignment"	"north-west"
-			"xpos"			"50"
-			"ypos"			"20"
-			"zpos"			"10"
-			"wide"			"100"
-			"tall"			"20"
-			"autoResize"	"1"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor_override"	"WhiteS"
-		}
-
-		"MoreInfoButton"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"MoreInfoButton"
-			"xpos"			"335"
-			"ypos"			"9999"
-			"zpos"			"20"
-			"wide"			"15"
-			"tall"			"15"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-			"tabPosition"	"0"
-			"labelText"		"?"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"Command"		"more_info"
-			"button_activation_type"	"1"	// only on press
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-		}
-	
-		"ModeInfoContainer"
+		"NavToRelay"	"NextPageButton"
+		
+		"SimplifiedOptionsContainer"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldName"		"ModeInfoContainer"
-			"xpos"		"40"
-			"ypos"		"10"
-			"wide"		"320"
-			"tall"		"245"
-			"visible"	"1"
-			"enabled"	"1"
-			"border"				"MainMenuHighlightBorder"
+			"fieldName"		"SimplifiedOptionsContainer"
+			"xpos"		"0"
+			"ypos"		"00"
+			"zpos"		"-1"
+			"wide"		"400"
+			"tall"		"300"
 
-			"ModeImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"ModeImage"
-				"xpos"			"45"
-				"ypos"			"10"
-				"zpos"			"0"
-				"wide"			"230"
-				"tall"			"230"
-				"visible"		"1"
-				"enabled"		"1"
-				"mouseinputenabled" "0"
-				"image"			"maps/menu_screen_ctf_2fort"
-				"scaleImage"	"1"
-			}
-	
-			"Label_GameType"
+			"CurPageLabel"
 			{
 				"ControlName"	"CExLabel"
-				"fieldName"		"Label_GameType"
-				"font"			"HudFontMediumSmallBold"
-				"labelText"		"%gametype%"
-				"textAlignment"	"center"
-				"xpos"			"0"
-				"ypos"			"7"
-				"zpos"			"2"
-				"wide"			"320"
-				"tall"			"25"
-				"autoResize"	"0"
+				"fieldName"		"CurPageLabel"
+				"font"			"HudFontSmallBold"
+				"labelText"		"%page%"
+				"textAlignment"	"north-west"
+				"xpos"			"50"
+				"ypos"			"20"
+				"zpos"			"10"
+				"wide"			"100"
+				"tall"			"20"
+				"autoResize"	"1"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"mouseinputenabled" "0"
-				"fgcolor_override"	"89 81 71 255"
+				"fgcolor_override"	"WhiteS"
 			}
 
-			"DescLabel"
+			"MoreInfoButton"
 			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"DescLabel"
-				"font"			"HudFontSmallest"
-				"labelText"		"%description%"
-				"textAlignment"	"south"
-				"xpos"			"5"
-				"ypos"			"175"
-				"zpos"			"2"
-				"wide"			"310"
-				"tall"			"50"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"fgcolor_override"	"89 81 71 255"
-				"auto_wide_tocontents" "0"
-				"wrap"				   "1"
-				"centerwrap"		   "1"
-			}
-
-			"ComplexityLabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"ComplexityLabel"
-				"font"			"HudFontSmallest"
-				"labelText"		"%complexity%"
-				"textAlignment"	"south"
-				"xpos"			"5"
-				"ypos"			"225"
-				"zpos"			"2"
-				"wide"			"310"
+				"ControlName"	"CExButton"
+				"fieldName"		"MoreInfoButton"
+				"xpos"			"335"
+				"ypos"			"9999"
+				"zpos"			"20"
+				"wide"			"15"
 				"tall"			"15"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"fgcolor_override"	"201 79 57 255"
-				"auto_wide_tocontents" "0"
-				"wrap"				   "1"
-				"centerwrap"		   "1"
-			}
+				"visible"		"0"
+				"enabled"		"0"
+				"tabPosition"	"0"
+				"labelText"		"?"
+				"font"			"HudFontSmallBold"
+				"textAlignment"	"center"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"default"		"1"
+				"Command"		"more_info"
+				"button_activation_type"	"1"	// only on press
 
-			"MoreInfoContainer"
+				"NavDown"		"NextPageButton"
+				
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+			}
+		
+			"ModeInfoContainer"
 			{
 				"ControlName"	"EditablePanel"
-				"fieldName"		"MoreInfoContainer"
-				"xpos"		"20"
-				"ypos"		"30"
-				"zpos"		"3"
-				"wide"		"280"
-				"tall"		"205"
-				"autoResize"		"0"
-				"pinCorner"		"0"
-				"visible"		"0"
-				"enabled"		"1"
-				"tabPosition"		"0"
-				"PaintBackgroundType"	"0"
-				"paintbackground"		"1"
-				"border"				"BackpackItemBorder"
+				"fieldName"		"ModeInfoContainer"
+				"xpos"		"40"
+				"ypos"		"10"
+				"wide"		"320"
+				"tall"		"245"
+				"visible"	"1"
+				"enabled"	"1"
+				"border"				"MainMenuHighlightBorder"
+
+				"ModeImage"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"ModeImage"
+					"xpos"			"45"
+					"ypos"			"10"
+					"zpos"			"0"
+					"wide"			"230"
+					"tall"			"230"
+					"visible"		"1"
+					"enabled"		"1"
+					"mouseinputenabled" "0"
+					"image"			"maps/menu_screen_ctf_2fort"
+					"scaleImage"	"1"
+				}
 		
-				"Background"
+				"Label_GameType"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"Label_GameType"
+					"font"			"HudFontMediumSmallBold"
+					"labelText"		"%gametype%"
+					"textAlignment"	"center"
+					"xpos"			"0"
+					"ypos"			"7"
+					"zpos"			"2"
+					"wide"			"320"
+					"tall"			"25"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"mouseinputenabled" "0"
+					"fgcolor_override"	"89 81 71 255"
+				}
+
+				"DescLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"DescLabel"
+					"font"			"HudFontSmallest"
+					"labelText"		"%description%"
+					"textAlignment"	"south"
+					"xpos"			"5"
+					"ypos"			"175"
+					"zpos"			"2"
+					"wide"			"310"
+					"tall"			"50"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"fgcolor_override"	"89 81 71 255"
+					"auto_wide_tocontents" "0"
+					"wrap"				   "1"
+					"centerwrap"		   "1"
+				}
+
+				"ComplexityLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ComplexityLabel"
+					"font"			"HudFontSmallest"
+					"labelText"		"%complexity%"
+					"textAlignment"	"south"
+					"xpos"			"5"
+					"ypos"			"225"
+					"zpos"			"2"
+					"wide"			"310"
+					"tall"			"15"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"fgcolor_override"	"201 79 57 255"
+					"auto_wide_tocontents" "0"
+					"wrap"				   "1"
+					"centerwrap"		   "1"
+				}
+
+				"MoreInfoContainer"
 				{
 					"ControlName"	"EditablePanel"
-					"fieldName"		"Background"
-					"xpos"		"0"
-					"ypos"		"0"
-					"wide"		"400"
-					"tall"		"400"
+					"fieldName"		"MoreInfoContainer"
+					"xpos"		"20"
+					"ypos"		"30"
+					"zpos"		"3"
+					"wide"		"280"
+					"tall"		"205"
 					"autoResize"		"0"
 					"pinCorner"		"0"
 					"visible"		"0"
 					"enabled"		"1"
 					"tabPosition"		"0"
-					"bgcolor_override"	"40 37 37 255"
-				}
-		
-				"MoreInfoLabel"
-				{
-					"ControlName"		"CExLabel"
-					"fieldName"		"MoreInfoLabel"
-					"font"			"HudFontSmallest"
-					"labelText"		"%more_info%"
-					"textAlignment"	"center"
-					"xpos"			"10"
-					"ypos"			"15"
-					"zpos"			"1"
-					"wide"			"260"
-					"tall"			"160"
-					"autoResize"	"1"
-					"pinCorner"		"0"
-					"visible"		"1"
-					"enabled"		"1"
-					"wrap"			"1"
-					"centerwrap"	"1"
-				}
+					"PaintBackgroundType"	"0"
+					"paintbackground"		"1"
+					"border"				"BackpackItemBorder"
+			
+					"Background"
+					{
+						"ControlName"	"EditablePanel"
+						"fieldName"		"Background"
+						"xpos"		"0"
+						"ypos"		"0"
+						"wide"		"400"
+						"tall"		"400"
+						"autoResize"		"0"
+						"pinCorner"		"0"
+						"visible"		"0"
+						"enabled"		"1"
+						"tabPosition"		"0"
+						"bgcolor_override"	"40 37 37 255"
+					}
+			
+					"MoreInfoLabel"
+					{
+						"ControlName"		"CExLabel"
+						"fieldName"		"MoreInfoLabel"
+						"font"			"HudFontSmallest"
+						"labelText"		"%more_info%"
+						"textAlignment"	"center"
+						"xpos"			"10"
+						"ypos"			"15"
+						"zpos"			"1"
+						"wide"			"260"
+						"tall"			"160"
+						"autoResize"	"1"
+						"pinCorner"		"0"
+						"visible"		"1"
+						"enabled"		"1"
+						"wrap"			"1"
+						"centerwrap"	"1"
+					}
+				}	
 			}	
-		}	
 
-		"PrevPageButton"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"PrevPageButton"
-			"xpos"			"12"
-			"ypos"			"110"
-			"zpos"			"1"
-			"wide"			"20"
-			"tall"			"40"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		"<"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"Command"		"prevpage"
-			"button_activation_type"	"1"	// only on press
+			"PrevPageButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"PrevPageButton"
+				"xpos"			"12"
+				"ypos"			"110"
+				"zpos"			"1"
+				"wide"			"20"
+				"tall"			"40"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"labelText"		"<"
+				"font"			"HudFontSmallBold"
+				"textAlignment"	"center"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"Command"		"prevpage"
+				"button_activation_type"	"1"	// only on press
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-		}		
+				"NavUp"			"MoreInfoButton"
+				"NavLeft"		"PrevPageButton"
 				
-		"NextPageButton"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"NextPageButton"
-			"xpos"			"367"
-			"ypos"			"110"
-			"zpos"			"10"
-			"wide"			"20"
-			"tall"			"40"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		">"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"Command"		"nextpage"
-			"button_activation_type"	"1"	// only on press
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+			}		
+					
+			"NextPageButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"NextPageButton"
+				"xpos"			"367"
+				"ypos"			"110"
+				"zpos"			"10"
+				"wide"			"20"
+				"tall"			"40"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"labelText"		">"
+				"font"			"HudFontSmallBold"
+				"textAlignment"	"center"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"Command"		"nextpage"
+				"button_activation_type"	"1"	// only on press
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-		}	
+				"NavUp"			"MoreInfoButton"
+				"NavLeft"		"PrevPageButton"
+
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+			}
+		}
 	}
 
 	"MannVsMachineGroupBox"
@@ -408,6 +431,11 @@
 		"zpos"		"-1"
 		"wide"		"400"
 		"tall"		"225"
+		
+		"NavToRelay"	"TourlistGroupBox"
+		"NavUp"			"MvMSelectChallengeGroupBox"
+		"NavLeft"		"MvMSelectChallengeGroupBox"
+		"NavRight"		"PartyActiveGroupBox"
 
 		"ChallengeLabel"
 		{
@@ -600,6 +628,11 @@
 		"tall"			"120"
 		"bgcolor_override"	"0 0 0 200"
 		"border"		"QuickplayBorder"
+		
+		"NavToRelay"	"OpenHelpButton"
+		"NavUp"			"MvMTourOfDutyGroupBox"
+		"NavDown"		"MvMPracticeGroupBox"
+		"NavRight"		"PartyActiveGroupBox"
 
 		"InventoryTitleLabel"
 		{
@@ -637,7 +670,8 @@
 			"command" "open_help"
 			"button_activation_type"	"1"	// only on press
 
-
+			"NavDown"		"OpenStoreButton2"
+			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
@@ -695,6 +729,9 @@
 			"brighttext"	"0"
 			"command" "open_store_ticket"
 
+			"NavUp"			"OpenStoreButton2"
+			"NavDown"		"<<BackButton"
+			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
@@ -751,6 +788,9 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"command" "open_store_voucher"
+			
+			"NavUp"			"OpenHelpButton"
+			"NavDown"		"OpenStoreButton"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -798,6 +838,11 @@
 		"paintbackground"		"1"
 		"bgcolor_override"	"0 0 0 200"
 		"border"		"QuickplayBorder"
+		
+		"NavToRelay"	"MannUpNowButton"
+		"NavUp"			"MvMEconItemsGroupBox"
+		"NavDown"		"<<BackButton"
+		"NavRight"		"PartyActiveGroupBox"
 
 		"NoMannUpImage"
 		{
@@ -878,6 +923,9 @@
 		"zpos"		"-1"
 		"wide"		"400"
 		"tall"		"225"
+		
+		"NavToRelay"	"ChallengeListGroupBox"
+		"NavRight"		"MvMTourOfDutyGroupBox"
 
 		"ChallengeLabel"
 		{
@@ -953,6 +1001,8 @@
 			"paintbackground"		"1"
 			"bgcolor_override"	"0 0 0 200"
 			"border"		"QuickplayBorder"
+			
+			"NavToRelay"	"ChallengeList"
 
 			"GreyOutPanel"
 			{
@@ -1423,6 +1473,11 @@
 		"wide"		"200"
 		"tall"		"330"
 		"visible"	"0"
+		
+		"NavToRelay"	"PartyGroupBox"
+		"NavDown"		"<<NextButton"
+		"NavLeft"		"<<Sheet"
+		"NavRight"		"<<StartPartyButton"
 
 		"PartyGroupBox"
 		{
@@ -1437,6 +1492,8 @@
 			"paintbackground"		"1"
 			"bgcolor_override"	"0 0 0 200"
 			"border"		"QuickplayBorder"
+			
+			"NavToRelay"	"InviteButton"
 
 			"PartyLabel"
 			{

@@ -105,7 +105,7 @@
 
         if_mvm
         {
-            "visible" "0"
+            "visible" "1"
         }
     }
 	"MapName"
@@ -129,7 +129,7 @@
 
         if_mvm
         {
-            "visible" "0"
+            "visible" "1"
         }
     }	
     "Spectators"
