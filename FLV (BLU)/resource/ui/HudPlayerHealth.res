@@ -21,7 +21,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"c-300"
+		"xpos"			"c-246"
 		"ypos"			"335"
 		"zpos"			"5"
 		"wide"			"200"
@@ -29,7 +29,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"east"
+		"textAlignment"	"center"
 		"font"			"BoldNumbers54"
 		"fgcolor"		"Health"
 	}
@@ -37,15 +37,15 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"c-299"
+		"xpos"			"c-245"
 		"ypos"			"336"
-		"zpos"			"-2"
+		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"44"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"east"
+		"textAlignment"	"center"
 		"font"			"BoldNumbers54"
 		"fgcolor"		"HudShadow"
 	}
@@ -60,7 +60,7 @@
         "tall"          "14"
         "autoResize"        "0"
         "pinCorner"     "0"
-        "visible"       "1"
+        "visible"       "0"
         "enabled"       "1"
         "image"         "../hud/color_panel_brown"
         "scaleImage"        "1"
@@ -248,10 +248,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName" "PlayerStatusMarkedForDeathSilentImage"
 		"xpos"			"0"
-		"ypos"			"354"       //180
+		"ypos"			"350"       //180
 		"zpos"			"7"
-		"wide"			"16"
-		"tall"			"16"
+		"wide"			"25"
+		"tall"			"25"
 		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -411,6 +411,21 @@
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"TanDark"
 	}
+	"PlayerStatus_Parachute"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_Parachute"
+		"xpos"			"0"
+		"ypos"			"350"
+		"zpos"			"7"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			""
+		"fgcolor"		"TanDark"
+	}
     
     //layout
     
@@ -429,7 +444,8 @@
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"Red"
 	}
-	
+
+//Animated Health from bwHUD	
 	"HealthBarBuff"
 	{
 		"ControlName"	"ImagePanel"
@@ -501,6 +517,129 @@
 		"alpha"			"0"		
 		"fillcolor"		"90 12 12 80"
 		"PaintBackgroundType"	"0"
+	}
+	
+	
+//Smissmass	
+	"PlayerStatus_RuneStrength"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneStrength"
+		"xpos"			"85"
+		"ypos"			"347"
+		"zpos"			"7"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_strength_hud"
+		"fgcolor"		"TanDark"
+	}
+	"PlayerStatus_RuneHaste"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneHaste"
+		"xpos"			"85"
+		"ypos"			"347"
+		"zpos"			"7"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_haste_hud"
+		"fgcolor"		"TanDark"
+	}
+	"PlayerStatus_RuneRegen"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneRegen"
+		"xpos"			"85"
+		"ypos"			"347"
+		"zpos"			"7"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_regen_hud"
+		"fgcolor"		"TanDark"
+	}
+	"PlayerStatus_RuneResist"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneResist"
+		"xpos"			"85"
+		"ypos"			"347"
+		"zpos"			"7"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_resist_hud"
+		"fgcolor"		"TanDark"
+	}
+	"PlayerStatus_RuneVampire"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneVampire"
+		"xpos"			"85"
+		"ypos"			"347"
+		"zpos"			"7"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_vampire_hud"
+		"fgcolor"		"TanDark"
+	}
+	"PlayerStatus_RuneWarlock"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneWarlock"
+		"xpos"			"85"
+		"ypos"			"347"
+		"zpos"			"7"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_warlock_hud"
+		"fgcolor"		"TanDark"
+	}
+	"PlayerStatus_RunePrecision"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RunePrecision"
+		"xpos"			"85"
+		"ypos"			"347"
+		"zpos"			"7"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_precision_hud"
+		"fgcolor"		"TanDark"
+	}
+	"PlayerStatus_RuneAgility"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneAgility"
+		"xpos"			"85"
+		"ypos"			"347"
+		"zpos"			"7"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_agility_hud"
+		"fgcolor"		"TanDark"
 	}
 }
 
