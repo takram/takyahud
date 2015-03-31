@@ -13,21 +13,6 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"TanLight"
-	}	
-	
-	"BG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BG"
-		"xpos"			"r240"		//15
-		"ypos"			"r17"		//7
-		"zpos"			"-22"
-		"wide"			"80"
-		"tall"			"17"
-		"visible"		"1"
-		"enabled"		"1"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"Flavor"	
 	}
 	
 	"MoneyImagePanel"
@@ -52,14 +37,16 @@
 		"font"			"NoveMedium18"
 		"fgcolor"		"White"
 		"xpos"			"r240"
-		"ypos"			"r19"
+		"ypos"			"r17"
 		"zpos"			"4"
 		"wide"			"80"
-		"tall"			"18"
+		"tall"			"17"
 		"visible"		"1"
 		"enabled"		"1"
+		"textinsety"	"-3"
 		"textAlignment"	"center"	
 		"labelText"		"%currency%"
+		"bgcolor_override"	"Flavor"
 	}
 	
 	"CurrencyBad"
@@ -69,13 +56,15 @@
 		"font"			"NoveMedium18"
 		"fgcolor"		"White"
 		"xpos"			"r240"
-		"ypos"			"r19"
+		"ypos"			"r17"
 		"zpos"			"4"
 		"wide"			"80"
-		"tall"			"18"
+		"tall"			"17"
 		"visible"		"1"
 		"enabled"		"1"
+		"textinsety"	"-3"
 		"textAlignment"	"center"	
 		"labelText"		"%currency%"
+		"bgcolor_override"	"60 60 60 255"	
 	}
 }

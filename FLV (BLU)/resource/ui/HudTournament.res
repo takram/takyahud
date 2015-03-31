@@ -40,7 +40,7 @@
 				"tall"        "35"
 				"autoResize"		"0"
 				"pinCorner"		"0"
-				"fillcolor"		"White"
+				"fillcolor"		"60 60 60 255"
 				"visible"			"1"
 				"enabled"			"1"
 			
@@ -61,7 +61,7 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"north-west"
-				"fgcolor"		"White"
+				"fgcolor"		"60 60 60 255"
 					
 				if_mvm
 				{
@@ -70,7 +70,7 @@
 					"wide"				"48"
 					"textAlignment"		"center"
 					"font"				"Regular9"
-					"fgcolor"			"Black"
+					"fgcolor"			"White"
 				}
 			}
 			
@@ -254,7 +254,7 @@
 		if_mvm
 		{
 			"xpos"					"c-250"
-			"ypos"					"0"
+			"ypos"					"10"
 			"wide"					"500"
 			"tall"					"480"
 

@@ -11,10 +11,8 @@
 		"tall"				"67"
 		"visible"			"1"
 		"enabled"			"1"
-		
 		"verbose"			"1"
 	}
-	
 	
 	"PopFileLabel"
 	{
@@ -30,6 +28,104 @@
 		"fgcolor"		"Black"
 	}
 
+	"MvMNameLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MvMNameLabel"
+		"font"			"NoveMedium10"
+		"labelText"		"#TF_Scoreboard_Name"
+		"textAlignment"	"west"
+		"xpos"			"c-280"
+		"ypos"			"r11"
+		"wide"			"293"
+		"tall"			"11"
+		"fgcolor"		"Black"
+	}
+
+	"MvMTourLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MvMTourLabel"
+		"font"			"NoveMedium10"
+		"labelText"		"#TF_MvMScoreboard_Tour"
+		"textAlignment"	"east"
+		"xpos"			"c-410"
+		"ypos"			"r11"
+		"wide"			"293"
+		"tall"			"11"
+		"fgcolor"		"Black"
+	}
+
+	"MvMScoreLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MvMScoreLabel"
+		"font"			"NoveMedium10"
+		"labelText"		"#TF_Scoreboard_Score"
+		"textAlignment"	"east"
+		"xpos"			"c-367"
+		"ypos"			"r11"
+		"wide"			"293"
+		"tall"			"11"
+		"fgcolor"		"Black"
+	}
+
+	"MvMDamageLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MvMDamageLabel"
+		"font"			"NoveMedium10"
+		"labelText"		"#TF_MvMScoreboard_Damage"
+		"textAlignment"	"east"
+		"xpos"			"c-324"
+		"ypos"			"r11"
+		"wide"			"293"
+		"tall"			"11"
+		"fgcolor"		"Black"
+	}
+
+	"MvMTankLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MvMTankLabel"
+		"font"			"NoveMedium10"
+		"labelText"		"#TF_MvMScoreboard_Tank"
+		"textAlignment"	"east"
+		"xpos"			"c-281"
+		"ypos"			"r11"
+		"wide"			"293"
+		"tall"			"11"
+		"fgcolor"		"Black"
+	}
+
+	"MvMHealingLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MvMHealingLabel"
+		"font"			"NoveMedium10"
+		"labelText"		"#TF_MvMScoreboard_Healing"
+		"textAlignment"	"east"
+		"xpos"			"c-237"
+		"ypos"			"r11"
+		"wide"			"293"
+		"tall"			"11"
+		"fgcolor"		"Black"
+	}
+
+	"MvMMoneyLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MvMMoneyLabel"
+		"font"			"NoveMedium10"
+		"labelText"		"#TF_MvMScoreboard_Money"
+		"textAlignment"	"east"
+		"xpos"			"c-195"
+		"ypos"			"r11"
+		"wide"			"293"
+		"tall"			"11"
+		"fgcolor"		"Black"
+	}
+
 	"DifficultyContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -39,21 +135,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
-		
-		"DifficultyLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"DifficultyLabel"
-			"font"			"NoveLight10"
-			"labelText"		"#TF_MvM_Difficulty"
-			"textAlignment"	"West"
-			"xpos"          "4" 
-            "ypos"          "457" 
-            "zpos"          "2"
-            "wide"          "287"
-            "tall"          "12"
-			"fgcolor"		"Blank"
-		}
 		
 		"DifficultyValue"
 		{
