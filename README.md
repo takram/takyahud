@@ -1,7 +1,7 @@
 yahud-classic
 =============
 
-[![screenshot](http://i.imgur.com/gn9O0bv.jpg)](http://imgur.com/a/we1U2)
+[![screenshot](http://i.imgur.com/wKNLOvE.png)](http://imgur.com/a/we1U2)
 
 
 Floating health is not supported. Add these commands to console/autoexec  
