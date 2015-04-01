@@ -69,7 +69,7 @@
     {
         "ControlName"         "CExImageButton"
         "fieldName"           "BG"
-        "xpos"                "51"
+        "xpos"                "2"
         "ypos"                "14"
         "zpos"                "-4"
         "wide"	          	  "640"
