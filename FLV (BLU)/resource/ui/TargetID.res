@@ -69,7 +69,7 @@
     {
         "ControlName"         "CExImageButton"
         "fieldName"           "BG"
-        "xpos"                "2"
+        "xpos"                "7"
         "ypos"                "14"
         "zpos"                "-4"
         "wide"	          	  "640"
@@ -102,6 +102,7 @@
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"textinsetx" "1"
 
 	}
     "TargetNameLabelShadow"
