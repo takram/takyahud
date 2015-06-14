@@ -743,7 +743,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-60"
-		"ypos"			"r123"
+		"ypos"			"r113"
 		"zpos"			"2"
 		"wide"			"120"
 		"tall"			"50"
@@ -758,7 +758,7 @@
 		"enabled"		"1"
 		"xpos"			"c-60"
 		"ypos"			"r113"			//r131
-		"zpos"			"2"
+		"zpos"			"3"
 		"wide"			"120"
 		"tall"			"50"
 		"MeterFG"		"White"
