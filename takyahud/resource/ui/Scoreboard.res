@@ -887,6 +887,33 @@
 			"wide"			"50"
 			"tall"			"26"
 			"fgcolor"		"Black"
+			"visible"		"0"
+			"enabled"		"0"
+
+			if_mvm
+			{
+                "fgcolor"		"Black"
+                "textAlignment"	"east"
+				"font"		"NoveMedium54"
+				"xpos"		"c-323"
+				"ypos"		"r170"
+				"wide"		"140"
+				"tall"		"54"
+			}
+		}
+		"Kills2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Kills2"
+			"font"			"NoveMedium24"
+			"labelText"		"%kills%"
+			"textAlignment"	"east"
+			"xpos"			"c-235"
+			"ypos"			"r31"
+			"zpos"			"3"
+			"wide"			"50"
+			"tall"			"26"
+			"fgcolor"		"Black"
 			"visible"		"1"
 			"enabled"		"1"
 
@@ -935,6 +962,32 @@
 			"wide"			"115"
 			"tall"			"26"
 			"fgcolor"		"Black"
+			"visible"		"0"
+			"enabled"		"0"
+
+			if_mvm
+			{
+                "textAlignment"		"west"
+                "fgcolor"		"Black"
+				"font"		"NoveMedium54"
+				"xpos"		"c-176"
+				"ypos"		"r170"
+				"tall"		"54"
+			}
+		}
+		"Deaths2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Deaths2"
+			"font"			"NoveMedium24"
+			"labelText"		"%deaths%"
+			"textAlignment"	"west"
+			"xpos"			"c-177"
+			"ypos"			"r31"
+			"zpos"			"3"
+			"wide"			"115"
+			"tall"			"26"
+			"fgcolor"		"Black"
 			"visible"		"1"
 			"enabled"		"1"
 
@@ -974,10 +1027,37 @@
 				"ypos"		"r172"
 			}
 		}
+		
 		"Assists"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Assists"
+			"font"			"NoveMedium8"
+			"labelText"		"%assists%"
+			"fgcolor"		"Black"
+			"textAlignment"	"west"
+			"xpos"			"c-103"
+			"ypos"			"r29"
+			"zpos"			"3"
+			"wide"			"163"
+			"tall"			"11"
+			"visible"		"0"
+			"enabled"		"0"
+
+			if_mvm
+			{
+                "textAlignment"		"east"
+                "fgcolor"		"Black"
+                "tall"			"15"
+				"font"		"Medium9"
+				"xpos"		"c-61"
+				"ypos"		"r172"
+			}
+		}
+		"Assists2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Assists2"
 			"font"			"NoveMedium8"
 			"labelText"		"%assists%"
 			"fgcolor"		"Black"
@@ -1038,6 +1118,32 @@
 			"zpos"			"3"
 			"wide"			"163"
 			"tall"			"11"
+			"visible"		"0"
+			"enabled"		"0"
+
+			if_mvm
+			{
+                "fgcolor"		"Black"
+                "textAlignment"	"east"
+				"font"		"Medium9"
+				"xpos"		"c-61"
+				"ypos"		"r162"
+                "tall"			"15"
+			}
+		}
+		"Captures2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Captures2"
+			"font"			"NoveMedium8"
+			"labelText"		"%captures%"
+			"fgcolor"		"Black"
+			"textAlignment"	"west"
+			"xpos"			"c-103"
+			"ypos"			"r21"
+			"zpos"			"3"
+			"wide"			"163"
+			"tall"			"11"
 			"visible"		"1"
 			"enabled"		"1"
 
@@ -1078,6 +1184,29 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Defenses"
+			"font"			"NoveMedium8"
+			"labelText"		"%defenses%"
+			"fgcolor"		"Black"
+			"textAlignment"	"west"
+			"xpos"			"c-103"
+			"ypos"			"r13"
+			"zpos"			"3"
+			"wide"			"163"
+			"tall"			"11"
+			"visible"		"0"
+			"enabled"		"0"
+
+			if_mvm
+			{
+				"font"		"Medium9"
+				"xpos"		"c-61"
+				"ypos"		"r152"
+			}
+		}
+		"Defenses2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Defenses2"
 			"font"			"NoveMedium8"
 			"labelText"		"%defenses%"
 			"fgcolor"		"Black"
@@ -1133,6 +1262,29 @@
 			"zpos"			"3"
 			"wide"			"163"
 			"tall"			"11"
+			"visible"		"0"
+			"enabled"		"0"
+
+			if_mvm
+			{
+				"font"		"Medium9"
+				"xpos"		"c-61"
+				"ypos"		"r142"
+			}
+		}
+		"Domination2"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Domination2"
+			"font"			"NoveMedium8"
+			"labelText"		"%dominations%"
+			"fgcolor"		"Black"
+			"textAlignment"	"west"
+			"xpos"			"c-23"
+			"ypos"			"r21"
+			"zpos"			"3"
+			"wide"			"163"
+			"tall"			"11"
 			"visible"		"1"
 			"enabled"		"1"
 
@@ -1166,10 +1318,34 @@
 				"ypos"		"r132"
 			}
 		}
+		
 		"Revenge"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Revenge"
+			"font"			"NoveMedium8"
+			"labelText"		"%Revenge%"
+			"fgcolor"		"Black"
+			"textAlignment"	"west"
+			"xpos"			"c-23"
+			"ypos"			"r13"
+			"zpos"			"3"
+			"wide"			"163"
+			"tall"			"11"
+			"visible"		"0"
+			"enabled"		"0"
+
+			if_mvm
+			{
+				"font"		"Medium9"
+				"xpos"		"c-61"
+				"ypos"		"r132"
+			}
+		}
+		"Revenge2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Revenge2"
 			"font"			"NoveMedium8"
 			"labelText"		"%Revenge%"
 			"fgcolor"		"Black"
@@ -1225,6 +1401,29 @@
 			"zpos"			"3"
 			"wide"			"163"
 			"tall"			"11"
+			"visible"		"0"
+			"enabled"		"0"
+
+			if_mvm
+			{
+				"font"		"Medium9"
+				"xpos"		"c-61"
+				"ypos"		"r122"
+			}
+		}
+		"Destruction2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Destruction2"
+			"font"			"NoveMedium8"
+			"labelText"		"%destruction%"
+			"fgcolor"		"Black"
+			"textAlignment"	"west"
+			"xpos"			"c-23"
+			"ypos"			"r29"
+			"zpos"			"3"
+			"wide"			"163"
+			"tall"			"11"
 			"visible"		"1"
 			"enabled"		"1"
 
@@ -1262,6 +1461,30 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Healing"
+			"font"			"NoveMedium8"
+			"labelText"		"%healing%"
+			"fgcolor"		"Black"
+			"textAlignment"	"west"
+			"xpos"			"c117"
+			"ypos"			"r29"
+			"zpos"			"3"
+			"wide"			"163"
+			"tall"			"11"
+			"visible"		"0"
+			"enabled"		"0"
+
+			if_mvm
+			{
+				"font"		"Medium9"
+				"xpos"		"c128"
+				"ypos"		"r172"
+				"wide"		"163"
+			}
+		}
+		"Healing2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Healing2"
 			"font"			"NoveMedium8"
 			"labelText"		"%healing%"
 			"fgcolor"		"Black"
@@ -1318,6 +1541,30 @@
 			"zpos"			"3"
 			"wide"			"163"
 			"tall"			"11"
+			"visible"		"0"
+			"enabled"		"0"
+
+			if_mvm
+			{
+				"font"		"Medium9"
+				"xpos"		"c128"
+				"ypos"		"r162"
+				"wide"		"163"
+			}
+		}
+		"Invuln2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Invuln2"
+			"font"			"NoveMedium8"
+			"labelText"		"%invulns%"
+			"fgcolor"		"Black"
+			"textAlignment"	"west"
+			"xpos"			"c117"
+			"ypos"			"r21"
+			"zpos"			"3"
+			"wide"			"163"
+			"tall"			"11"
 			"visible"		"1"
 			"enabled"		"1"
 
@@ -1356,6 +1603,30 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Headshots"
+			"font"			"NoveMedium8"
+			"labelText"		"%headshots%"
+			"fgcolor"		"Black"
+			"textAlignment"	"west"
+			"xpos"			"c52"
+			"ypos"			"r21"
+			"zpos"			"3"
+			"wide"			"163"
+			"tall"			"11"
+			"visible"		"0"
+			"enabled"		"0"
+
+			if_mvm
+			{
+				"font"		"Medium9"
+				"xpos"		"c128"
+				"ypos"		"r152"
+				"wide"		"163"
+			}
+		}
+		"Headshots2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Headshots2"
 			"font"			"NoveMedium8"
 			"labelText"		"%headshots%"
 			"fgcolor"		"Black"
@@ -1412,6 +1683,30 @@
 			"zpos"			"3"
 			"wide"			"163"
 			"tall"			"11"
+			"visible"		"0"
+			"enabled"		"0"
+
+			if_mvm
+			{
+				"font"		"Medium9"
+				"xpos"		"c128"
+				"ypos"		"r142"
+				"wide"		"163"
+			}
+		}
+		"Backstabs2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Backstabs2"
+			"font"			"NoveMedium8"
+			"labelText"		"%backstabs%"
+			"fgcolor"		"Black"
+			"textAlignment"	"west"
+			"xpos"			"c52"
+			"ypos"			"r29"
+			"zpos"			"3"
+			"wide"			"163"
+			"tall"			"11"
 			"visible"		"1"
 			"enabled"		"1"
 
@@ -1450,6 +1745,30 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Teleports"
+			"font"			"NoveMedium8"
+			"labelText"		"%teleports%"
+			"fgcolor"		"Black"
+			"textAlignment"	"west"
+			"xpos"			"c52"
+			"ypos"			"r13"
+			"zpos"			"3"
+			"wide"			"163"
+			"tall"			"11"
+			"visible"		"0"
+			"enabled"		"0"
+
+			if_mvm
+			{
+				"font"		"Medium9"
+				"xpos"		"c128"
+				"ypos"		"r132"
+				"wide"		"163"
+			}
+		}
+		"Teleports2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Teleports2"
 			"font"			"NoveMedium8"
 			"labelText"		"%teleports%"
 			"fgcolor"		"Black"
@@ -1506,6 +1825,30 @@
 			"zpos"			"3"
 			"wide"			"163"
 			"tall"			"11"
+			"visible"		"0"
+			"enabled"		"0"
+
+			if_mvm
+			{
+				"font"		"Medium9"
+				"xpos"		"c128"
+				"ypos"		"r122"
+				"wide"		"163"
+			}
+		}
+		"Bonus2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Bonus2"
+			"font"			"NoveMedium8"
+			"labelText"		"%bonus%"
+			"fgcolor"		"Black"
+			"textAlignment"	"west"
+			"xpos"			"c117"
+			"ypos"			"r13"
+			"zpos"			"3"
+			"wide"			"163"
+			"tall"			"11"
 			"visible"		"1"
 			"enabled"		"1"
 
@@ -1546,6 +1889,22 @@
 			"zpos"			"3"
 			"wide"			"163"
 			"tall"			"11"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		"Support2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Support2"
+			"font"			"NoveMedium8"
+			"labelText"		"%support%"
+			"fgcolor"		"Black"
+			"textAlignment"	"west"
+			"xpos"			"c182"
+			"ypos"			"r29"
+			"zpos"			"3"
+			"wide"			"163"
+			"tall"			"11"
 			"visible"		"1"
 			"enabled"		"1"
 		}
@@ -1569,6 +1928,22 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Damage"
+			"font"			"NoveMedium8"
+			"labelText"		"%damage%"
+			"fgcolor"		"Black"
+			"textAlignment"	"west"
+			"xpos"			"c182"
+			"ypos"			"r21"
+			"zpos"			"3"
+			"wide"			"163"
+			"tall"			"11"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		"Damage2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Damage2"
 			"font"			"NoveMedium8"
 			"labelText"		"%damage%"
 			"fgcolor"		"Black"
