@@ -78,7 +78,7 @@
         "pinCorner"	          "0"
         "visible"		      "1"
         "enabled"		      "1"
-        "defaultBgColor_Override"		"0 0 0 150"	//BrightGray
+        "defaultBgColor_Override"		"BrightGray"	//BrightGray
         "PaintBackgroundType""0"
         "textinsety" "99"
 	}
@@ -96,12 +96,35 @@
 		"fgcolor"		"Black"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"textinsetx" "1"
+		"alpha" "0"
+
+	}
+	"fixedTargetNameLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"	"fixedTargetNameLabel"
+		"font"	"Medium14"	//Medium12
+		"xpos"	"58"
+		"ypos"	"17"
+		"zpos"	"2"
+		"wide"	"640"
+		"tall"	"14"
+		"fgcolor"	"Black"
+		"autoResize"	"0"
+		"pinCorner"	"0"
+		"visible"	"1"
+		"enabled"	"1"
+		"labelText"	"%targetname%"
+		"textAlignment"	"west"
+		"dulltext"	"0"
+		"brighttext"	"0"
 		"textinsetx" "1"
 
 	}
